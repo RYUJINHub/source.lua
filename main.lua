@@ -436,9 +436,9 @@ if not _env.LoadedFarm then
 end
 
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))()
-local Window = redzlib:MakeWindow({ Title = "Meme Sea | Sinestria Hub", SubTitle = "", SaveFolder = "redzHub-MemeSea.json" })
+local Window = redzlib:MakeWindow({ Title = "Meme Sea | Sinestria", SubTitle = "", SaveFolder = "redzHub-MemeSea.json" })
 Window:AddMinimizeButton({
-  Button = { Image = "rbxassetid://16731758728", BackgroundTransparency = 0 },
+  Button = { Image = "rbxassetid://15298567397", BackgroundTransparency = 0 },
   Corner = { CornerRadius = UDim.new(0, 6) }
 })
 
@@ -464,10 +464,10 @@ end
 
 local _Discord = Tabs.Discord do
   _Discord:AddDiscordInvite({
-    Name = "redz Hub | Community",
+    Name = "",
     Description = "Join our discord community to receive information about the next update",
-    Logo = "rbxassetid://17382040552",
-    Invite = "https://discord.gg/7aR7kNVt4g"
+    Logo = "",
+    Invite = ""
   })
 end
 
