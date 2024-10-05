@@ -438,7 +438,7 @@ end
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))()
 local Window = redzlib:MakeWindow({ Title = "Meme Sea | Sinestria Hub", SubTitle = "", SaveFolder = "redzHub-MemeSea.json" })
 Window:AddMinimizeButton({
-  Button = { Image = "", BackgroundTransparency = 0 },
+  Button = { Image = "rbxassetid://16731758728", BackgroundTransparency = 0 },
   Corner = { CornerRadius = UDim.new(0, 6) }
 })
 
